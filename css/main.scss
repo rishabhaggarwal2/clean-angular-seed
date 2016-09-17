@@ -1,0 +1,41 @@
+//Color Constants and Font Embeds
+
+$white: #fff;
+$black:#000;
+$lightPurple: #7A56B9;
+$darkPurple: #4E347D;
+$pink: #E4627B;
+$tablet:767px;
+$desktop:1199px;
+
+// @font-face {
+// 	font-family: 'Avenir Next';
+// 	src: url('../fonts/AvenirNext-regular.woff') format('woff'),
+// 	url('../fonts/AvenirNext-regular.ttf') format('ttf');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+@mixin transition($time) {
+	transition:$time ease all;
+	-webkit-transition:$time ease all;
+	-moz-transition:$time ease all;
+	-ms-transition:$time ease all;
+	-o-transition:$time ease all;
+}
+
+body,html{
+	// font-family:Open Sans;
+	// font-weight:100;
+	font-size: 16px;
+	line-height: 1.5;
+	background:#f3f3f3;
+	width:100%;
+	overflow-x:hidden;
+	margin:0;
+
+}
+
+h1, h2, h3, h4, h5, h6, a{
+	
+}
